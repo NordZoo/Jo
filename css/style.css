@@ -1,0 +1,8 @@
+body {
+    overflow-x: hidden;
+}
+
+.stein {
+    width: 10em;
+    height: auto;
+}
