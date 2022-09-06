@@ -7,3 +7,8 @@ body {
     width: 10em;
     height: auto;
 }
+
+#geld {
+    display: flex;
+    font-size: 20pt;
+}
