@@ -9,13 +9,15 @@ function m_geld() {
 };
 
 m1_level = 1;
+i = 1;
 
 function miner1() {
     if (m1_level * 10 <= geld) {
         geld -= m1_level * 10;
         document.getElementById("level").innerHTML = m1_level += 1;
-        for (let i = 1; i > 0; i++) {
+        while (i >= 1) {
             setTimeout(geld += 1, 1000);
+            i++;
         }
     } else {
         alert("Zu wenig Geld");
