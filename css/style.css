@@ -8,7 +8,7 @@ body {
     height: auto;
 }
 
-#miners {
+.miners {
     visibility: hidden;
     width: 12em;
     height: auto;
